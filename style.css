@@ -1,0 +1,125 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+nav {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .nav1 {
+    width: 30%;
+    padding-bottom: 30px;
+}
+
+.nav1 h2 {
+    font-size: 28px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+nav .nav2 {
+    width: 40%;
+    font-size: 18px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav2 h4 {
+    padding-right: 30px;
+}
+
+.nav3 {
+    width: 30%;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.nav3 i {
+    padding-right: 40px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-top: 20px;
+}
+
+.page {
+    width: 100%;
+    height: calc(100vh - 20vh);
+    background-image: url(./media/wp-DNatureDGraphicsPhoto_36516-cprw.jpg);
+    border-radius: 20px;
+    position: relative;
+}
+
+.page h1 {
+    font-size: 120px;
+    color: white;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.page h3 {
+    color: white;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.page button {
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.page .icon {
+    font-size: 40px;
+    color: white;
+    padding-left: 65px;
+    padding-top: 180px;
+    gap: 40px;
+}
+
+.page .icon #dist {
+    gap: 20px;
+}
+
+footer {
+    height: 10vh;
+    width: 100%;
+}
+
+footer h4 {
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    color: blue;
+    padding-top: 10px;
+}
